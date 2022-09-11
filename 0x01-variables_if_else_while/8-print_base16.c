@@ -9,7 +9,7 @@ int main(void)
 {
 char b16;
 
-for (b16 = 48; b16 <= 57; v++)
+for (b16 = 48; b16 <= 57; b16++)
 {
 putchar (b16);
 }
