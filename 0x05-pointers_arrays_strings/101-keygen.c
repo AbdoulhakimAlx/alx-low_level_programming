@@ -14,7 +14,7 @@ int main(void)
 
 	num = rand();
 
-	printf("%i\n", num);
+	printf("%s\n", num);
 
 	return (0);
 
