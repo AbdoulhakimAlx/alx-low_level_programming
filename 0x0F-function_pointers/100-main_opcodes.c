@@ -11,17 +11,16 @@
 int main(int argc, char *argv[])
 {
 	int i, n;
-	
+
+
 	if (argc != 2)
 	{
-//		printf("%02hhx", *((char *)main + i));
 		printf("Error\n");
 		return (1);
 	}
 	n = atoi(argv[1]);
 	if (n < 0)
 	{
-//		printf("%02hhx", *((char *)main + i));
 		printf("Error\n");
 		exit(2);
 	}
